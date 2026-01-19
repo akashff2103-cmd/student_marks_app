@@ -11,3 +11,4 @@ hours = st.slider("Select study hours:", 0, 10, 1)
 if st.button("Predict Marks"):
     marks = predict_marks(hours)
     st.success(f"📈 Predicted Marks: {marks:.2f}")
+
